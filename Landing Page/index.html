@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha Tech Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .about, .features, .contact {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .about h2, .features h2, .contact h2 {
+            color: #0073e6;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .features li:last-child {
+            border-bottom: none;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background: #0073e6;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #005bb5;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harsha Tech Solutions</h1>
+        <p>Innovative Solutions for Modern Problems</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>At Harsha Tech Solutions, we are committed to delivering top-notch technology solutions tailored to meet the unique needs of our clients. Our team of experts is dedicated to providing innovative and efficient solutions to help businesses thrive in the digital age.</p>
+        </section>
+
+        <section class="features">
+            <h2>Our Features</h2>
+            <ul>
+                <li>High-quality, customized tech solutions for various industries.</li>
+                <li>Innovative and creative approaches to problem-solving.</li>
+                <li>Dedicated support and excellent customer service.</li>
+                <li>Competitive pricing and great value for money.</li>
+                <li>Latest technologies and best practices to ensure success.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Harsha Tech Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
